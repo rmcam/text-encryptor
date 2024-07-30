@@ -9,6 +9,7 @@ Text Encryptor es una aplicación web diseñada para encriptar y desencriptar me
 - Copiar al portapapeles: Permite copiar el texto encriptado o desencriptado.
 - Advertencia de formato: Indica que solo se permiten letras minúsculas y sin acentos.
 - Limpiar texto: Permite limpiar el área de texto de entrada.
+- Modo Oscuro (Dark Mode)
 
 ## Tecnologías Utilizadas
 - HTML
@@ -26,13 +27,6 @@ Text Encryptor es una aplicación web diseñada para encriptar y desencriptar me
     cd text-encryptor
     ```
 3. Abre el archivo `index.html` en tu navegador web preferido.
-   
-## Funcionalidades
-
-- Encriptar texto
-- Desencriptar texto
-- Copiar el texto encriptado/desencriptado al portapapeles
-- Modo Oscuro (Dark Mode)
 
 ## Uso
 
