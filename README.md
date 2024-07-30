@@ -16,6 +16,35 @@ Text Encryptor es una aplicación web diseñada para encriptar y desencriptar me
 - JavaScript
 
 ## Instalación
-1. Clona este repositorio en tu máquina local:
-   ```bash
-   git clone https://github.com/tuusuario/text-encryptor.git
+
+1. Clona el repositorio:
+    ```sh
+    git clone https://github.com/tu-usuario/text-encryptor.git
+    ```
+2. Navega hasta el directorio del proyecto:
+    ```sh
+    cd text-encryptor
+    ```
+3. Abre el archivo `index.html` en tu navegador web preferido.
+   
+## Funcionalidades
+
+- Encriptar texto
+- Desencriptar texto
+- Copiar el texto encriptado/desencriptado al portapapeles
+- Modo Oscuro (Dark Mode)
+
+## Uso
+
+1. Ingresa el texto que deseas encriptar o desencriptar en el área de texto proporcionada.
+2. Haz clic en el botón "Encriptar" o "Desencriptar" según sea necesario.
+3. El texto encriptado o desencriptado se mostrará en el área de salida.
+4. Puedes copiar el resultado al portapapeles haciendo clic en el botón "Copiar".
+
+## Modo Oscuro (Dark Mode)
+
+El modo oscuro se puede activar y desactivar utilizando el botón de alternancia en la parte superior de la página. El modo oscuro proporciona una interfaz visual más cómoda para entornos con poca luz.
+
+### Activar el Modo Oscuro
+Para activar el modo oscuro, haz clic en el botón de modo oscuro en la esquina superior derecha de la página. La configuración del modo oscuro se guarda en el `localStorage`, por lo que tu preferencia se mantendrá al recargar la página.
+
