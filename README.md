@@ -1,5 +1,5 @@
 # Text Encryptor
-
+![Demo](https://github.com/user-attachments/assets/dac2e976-6c4d-4c4d-b36d-669bb9e5ac48)
 ## Descripción
 Text Encryptor es una aplicación web diseñada para encriptar y desencriptar mensajes de texto. La aplicación proporciona una interfaz simple y fácil de usar, permitiendo a los usuarios ingresar texto y encriptarlo con un solo clic. También ofrece la opción de desencriptar el texto previamente encriptado y copiar el resultado al portapapeles.
 
