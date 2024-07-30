@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', (event) => {
+  if (localStorage.getItem('dark-mode') === 'enabled') {
+    document.body.classList.add('dark-mode');
+  }
+});
 const inputText = document.getElementById("input-text");
 const outputText = document.getElementById("output-text");
 const outputDiv = document.getElementById("output-div");
@@ -12,6 +17,15 @@ inputText.addEventListener("keypress", function (event) {
     }
   }
 });
+function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+  if (document.body.classList.contains('dark-mode')) {
+    localStorage.setItem('dark-mode', 'enabled');
+  } else {
+    localStorage.setItem('dark-mode', 'disabled');
+  }
+}
+
 function encryptText() {
   validateStyle();
   outputText.innerHTML = encrypt(inputText.value);
